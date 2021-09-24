@@ -26,7 +26,7 @@ function App() {
     <div className="App">
       {
         talks.map((talk, index) => (
-          <div>
+          <div key={index} >
             <h3>{talk.speakerName}</h3>
             <h5>{talk.name}</h5>
             <p>{talk.description}</p>
