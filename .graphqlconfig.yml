@@ -1,0 +1,15 @@
+projects:
+  confrenceAPI:
+    schemaPath: amplify/backend/api/confrenceAPI/build/schema.graphql
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: us-west-1
+        apiId: null
+        maxDepth: 2
